@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-13T14:19:33.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="4ZJWriCOSmBvcsG9gVeP" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-13T14:24:00.590Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="hkorvjpjEQKqgnc2vXgN" version="14.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="865" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="457" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -13,7 +13,7 @@
         <mxCell id="U5zzJ85QlF7w1FTr-bim-3" value="从/admin 跳转到&lt;br&gt;/admin_category_list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="314" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U5zzJ85QlF7w1FTr-bim-4" value="RESTFUL&lt;br&gt;自动装配 CategoryService&lt;br&gt;访问 /categories 获取并返回所有 Category 对象的集合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="U5zzJ85QlF7w1FTr-bim-4" value="RESTFUL风格&lt;br&gt;自动装配 CategoryService&lt;br&gt;访问 /categories 获取并返回所有 Category 对象的集合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="130" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U5zzJ85QlF7w1FTr-bim-5" value="@Service&lt;br&gt;自动装配 CategoryDAO&lt;br&gt;返回 findAll(sort);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -132,6 +132,12 @@
         </mxCell>
         <mxCell id="U5zzJ85QlF7w1FTr-bim-30" value="数据库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="635" y="410" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U5zzJ85QlF7w1FTr-bim-31" value="&lt;font style=&quot;font-size: 11px&quot;&gt;跳转控制器&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#333333;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="294" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U5zzJ85QlF7w1FTr-bim-32" value="&lt;font style=&quot;font-size: 11px&quot;&gt;获取数据控制器&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#333333;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="136" y="110" width="168" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
